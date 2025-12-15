@@ -25,10 +25,10 @@ public class EvenOdd{
         return n & bitmask;
     }
     public static void main(String[] args) {
-       System.out.println(GetBit(5, 2)); 
-        System.out.println(SetBit(7,2));
-        System.out.println(ClearBit(10, 1));
-        System.out.println(UpdateBit(10,2,1));
-        System.out.println(ClearIthLastBit(15, 2));
+    //    System.out.println(GetBit(5, 2)); 
+        // System.out.println(SetBit(7,2));
+        // System.out.println(ClearBit(10, 1));
+        System.out.println(UpdateBit(10,5,1));
+        // System.out.println(ClearIthLastBit(15, 2));
     }
 }
